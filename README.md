@@ -1,8 +1,8 @@
 # Starnavi-Test-task
 This is test task for Starnavi company
 ```bash
-git clone https://github.com/SysoevDmitro/INFORCE-PYTHON-TASK.git
-cd 
+git clone https://github.com/SysoevDmitro/Starnavi-Test-task.git
+cd Starnavi-Test-task
 ```
 ## Run with Docker
 Docker must be already installed
