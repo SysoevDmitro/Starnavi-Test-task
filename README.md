@@ -30,3 +30,17 @@ run in docker terminal
 ```shell 
 python manage.py test
 ```
+## CRUD operations
+To manipulate with endpoints change request body in application/json for example
+```
+{
+  "title": "Example title",
+  "content": "example content",
+  "author": {
+    "id": 0,
+    "email": "user@example.com"
+  },
+  "auto_reply": false,
+  "reply_delay": 0
+}
+```
