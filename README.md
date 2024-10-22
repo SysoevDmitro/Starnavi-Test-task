@@ -15,6 +15,7 @@ docker-compose up
 ```
 Documentation for endpoints
 /api/docs#/
+Firstly go to /api/auth/login/ and get access token then paste it to Authorize header
 
 ## Run Tests
 run in docker terminal
