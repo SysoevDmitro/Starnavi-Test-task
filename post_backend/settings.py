@@ -139,3 +139,6 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 }
+
+CELERY_BROKER_URL = 'amqp://user:password@127.0.0.1:5672//'
+CELERY_RESULT_BACKEND = 'rpc://'
